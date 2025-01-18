@@ -24,9 +24,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C663C7AA2D30E7E7003AC69E /* ZRP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZRP.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C663C7BD2D30E7EA003AC69E /* ZRPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZRPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C663C7C72D30E7EA003AC69E /* ZRPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZRPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C663C7AA2D30E7E7003AC69E /* ZRP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = ZRP.app; path = /Users/siddhu/Developer/iOS/ZRP/ZRP/build/Debug/ZRP.app; sourceTree = "<absolute>"; };
+		C663C7BD2D30E7EA003AC69E /* ZRPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ZRPTests.xctest; path = /Users/siddhu/Developer/iOS/ZRP/ZRP/build/Debug/ZRP.app/Contents/PlugIns/ZRPTests.xctest; sourceTree = "<absolute>"; };
+		C663C7C72D30E7EA003AC69E /* ZRPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ZRPUITests.xctest; path = "/Users/siddhu/Developer/iOS/ZRP/ZRP/build/Debug/ZRPUITests-Runner.app/Contents/PlugIns/ZRPUITests.xctest"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -43,6 +43,11 @@
 		C663C7CA2D30E7EA003AC69E /* ZRPUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = ZRPUITests;
+			sourceTree = "<group>";
+		};
+		C663C7DC2D35828E003AC69E /* Models */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -78,18 +83,8 @@
 				C663C7AC2D30E7E7003AC69E /* ZRP */,
 				C663C7C02D30E7EA003AC69E /* ZRPTests */,
 				C663C7CA2D30E7EA003AC69E /* ZRPUITests */,
-				C663C7AB2D30E7E7003AC69E /* Products */,
+				C663C7DC2D35828E003AC69E /* Models */,
 			);
-			sourceTree = "<group>";
-		};
-		C663C7AB2D30E7E7003AC69E /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				C663C7AA2D30E7E7003AC69E /* ZRP.app */,
-				C663C7BD2D30E7EA003AC69E /* ZRPTests.xctest */,
-				C663C7C72D30E7EA003AC69E /* ZRPUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -109,6 +104,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				C663C7AC2D30E7E7003AC69E /* ZRP */,
+				C663C7DC2D35828E003AC69E /* Models */,
 			);
 			name = ZRP;
 			packageProductDependencies = (
@@ -196,7 +192,7 @@
 			mainGroup = C663C7A12D30E7E7003AC69E;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = C663C7AB2D30E7E7003AC69E /* Products */;
+			productRefGroup = C663C7A12D30E7E7003AC69E;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
